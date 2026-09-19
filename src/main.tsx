@@ -1,4 +1,5 @@
 import React, { Suspense, useMemo, useRef, useState } from 'react';
+import * as THREE from 'three';
 import { createRoot } from 'react-dom/client';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Float, MeshDistortMaterial, OrbitControls, Sparkles } from '@react-three/drei';
